@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    margin: 3rem auto 2rem;
+    padding: 1rem 1rem;
+    /* padding-bottom: 2rem; */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h2 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    padding-right: 6rem;
+    padding-top: 1rem;
+}
+
+.cont1 {
+    display: flex;
+    gap: 6em;
+    align-content: center;
+    align-items: center;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-style: light;
+    padding: 0.5rem 2rem;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 0.9rem;
+}
+
+.li2 {
+    margin-left: 2rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.li1 {
+    color: hsl(178, 100%, 50%);
+}
+
+.bord {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 2rem;
+
+}
+
+.img2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 19rem;
+    margin-top: -1rem;
+}
+
+.lastt {
+    font-weight: 300;
+    font-style: light;
+    margin-top: -2rem;
+    margin-right: 6rem;
+}
+
+.strr {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.eq {
+    cursor: pointer;
+}
+.strr {
+    cursor: pointer;
+}
+.eq:hover {
+    color: hsl(178, 100%, 50%);
+}
+.strr:hover {
+    color: hsl(178, 100%, 50%);
+}
+@media (max-width:375px) {
+    .cont {
+        width: 300px;
+       
+    }
+}
