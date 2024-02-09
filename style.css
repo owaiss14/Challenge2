@@ -1,0 +1,113 @@
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-darkblue: hsl(217, 54%, 11%);
+    main bg --Very-darkblue-1: hsl(216, 50%, 16%);
+    card --Very-darkblue: hsl(215, 32%, 27%);
+    li --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    margin: 3rem auto 2rem;
+    padding: 1rem 1rem;
+    /* padding-bottom: 2rem; */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h2 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    padding-right: 6rem;
+    padding-top: 1rem;
+}
+
+.cont1 {
+    display: flex;
+    gap: 6em;
+    align-content: center;
+    align-items: center;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-style: light;
+    padding: 0.5rem 2rem;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 0.9rem;
+}
+
+.li2 {
+    margin-left: 2rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.li1 {
+    color: hsl(178, 100%, 50%);
+}
+
+.bord {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 2rem;
+
+}
+
+.img2 img {
+    width: 40px;
+    /* Adjust the width of the image */
+    height: 40px;
+    /* Adjust the height of the image */
+    border-radius: 50%;
+    /* Make the image rounded */
+    margin-right: 20rem;
+    /* Add some space between image and text */
+    margin-top: -1.4rem;
+}
+
+.lastt {
+    margin-top: -2.5rem;
+    margin-right: 7rem;
+}
+
+.strr {
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+}
+
+.imgg:hover {
+    background-color: hsl(178, 100%, 50%);
+}
+
+.strr:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.eq:hover {
+    color: hsl(178, 100%, 50%);
+}
